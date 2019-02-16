@@ -1,0 +1,92 @@
+/*
+* =====================================================
+*     INTEGRATIONS SECTION
+* =====================================================
+*/
+.box {
+    padding: 3rem 2rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .box:hover {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box .icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .pt100 {
+    padding-top: 100px !important;
+  }
+  .pb100 {
+    padding-bottom: 100px !important;
+  }
+  .section_title {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .section_title .title {
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 36px;
+  }
+  .section_title .title:before {
+    width: 30px;
+    content: " ";
+    position: absolute;
+    border-top: solid 3px #f50136;
+    left: 0;
+    top: 0;
+  }
+  .mb50 {
+    margin-bottom: 50px !important;
+  }
+  .brand_item {
+    opacity: 0.3;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  .brand_item img {
+    display: block;
+    max-width: 130px;
+    margin: 0 auto;
+  }
+  .brand_item:hover {
+    opacity: 1;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  /*
+  * =====================================================
+  *     CONTACT SECTIOn
+  * =====================================================
+  */
+  .contact-details .box {
+    padding: 1.5rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+  }
+  
+  .contact-details .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  
+  .contact-form sup {
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-left: 0.2rem;
+  }
+  
+  .contact-form .icon {
+    display: none !important;
+    margin-left: 1rem;
+  }
+  
