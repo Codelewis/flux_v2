@@ -492,7 +492,7 @@ button:focus {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
       padding-top: 100px;
-      padding-bottom: 142px; }
+      padding-bottom: 0px; }
     .home_banner_area .banner_inner .col-lg-5 {
       vertical-align: middle;
       align-self: center; }
