@@ -90,3 +90,38 @@
     margin-left: 1rem;
   }
   
+  .footer_copyright {
+  overflow: hidden;
+  background: #ffffff;
+  padding: 35px 0px;
+}
+
+.footer_copyright .float-sm-left h5 {
+  font-size: 14px;
+  color: #2a2f56;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.footer_copyright .float-sm-right ul li {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.footer_copyright .float-sm-right ul li a {
+  font-size: 14px;
+  color: #2a2f56;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.footer_copyright .float-sm-right ul li:last-child {
+  margin-right: 0px;
+}
+
+.footer_copyright .float-sm-right ul li:hover a {
+  color: #fff;
+}
